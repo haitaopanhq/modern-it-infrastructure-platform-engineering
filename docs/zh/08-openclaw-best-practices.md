@@ -1,5 +1,7 @@
 # 第 8 章：OpenClaw 最佳实践
 
+![OpenClaw最佳实践图解](../zh/diagrams/08-openclaw.png)
+
 ## 本章概述
 
 本章介绍 OpenClaw Gateway 的架构设计、核心组件、最佳实践，以及如何构建 AI Agent 工程能力。

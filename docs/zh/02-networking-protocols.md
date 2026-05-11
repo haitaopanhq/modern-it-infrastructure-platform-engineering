@@ -1,5 +1,7 @@
 # 第 2 章：网络与协议
 
+![网络与协议图解](../zh/diagrams/02-networking-protocols.png)
+
 ## 本章概述
 
 本章介绍现代 IT 系统中的网络技术，从传统协议到云原生网络，涵盖 OSI 模型、TCP/IP、TLS、DNS，以及 Kubernetes 网络、Service Mesh 等内容。
