@@ -90,6 +90,57 @@
 | 扩展方式 | 垂直扩展 | 水平扩展 |
 | 治理方式 | 分散管理 | 统一平台 |
 
+## 1.6 基础设施演进： 从 Cloud Native 到 AI Native
+
+### 演进路径
+
+```
+硬件层 → 虚拟化层 → 云控制平面 → 运行时 → 网络 → 编排层 → AI 基础设施
+   │           │             │          │       │        │         │
+   ▼           ▼             ▼          ▼       ▼        ▼         ▼
+ GPU/NVMe   Ceph/CSI      AWS/K8s    Docker   CNI     K8s     vLLM/Ray
+ RDMA       Open vSwitch  OpenStack  OCI      eBPF   Kubelet  Triton
+```
+
+### 层次解析
+
+| 层次 | 核心组件 | 关注点 |
+|------|----------|--------|
+| 硬件层 | GPU、NVMe、RDMA、Linux Kernel、eBPF、cgroups | 资源边界与性能上限 |
+| 虚拟化层 | Ceph、Open vSwitch、SR-IOV、DPDK、CSI | 计算/存储/网络统一资源池化 |
+| 云控制平面 | AWS、OpenStack、Harvester | 资源统一管理、调度、编排 |
+| 容器编排 | Kubernetes | 分布式容器操作系统 |
+| AI 基础设施 | vLLM、Ray、TensorRT-LLM、SGLang、Triton | GPU调度、分布式推理、模型路由 |
+
+### Kubernetes 的定位
+
+Kubernetes 更像是时代的"中间层"，而非最终答案：
+
+- **成功原因**：形成完整生态和事实标准，Mesos、Docker Swarm 逐渐退场
+- **应用误区**：Kubernetes Everything——数据库跑 K8s、AI 跑 K8s、边缘跑 K8s、存储也跑 K8s
+- **最终状态**：像 Linux 一样逐渐"下沉"，成为基础设施底座
+
+### AI 时代的基础设施重构
+
+| 传统 Web 基础设施 | AI 基础设施 |
+|-------------------|-------------|
+| HTTP 请求 | Token 延迟 |
+| 副本数 | GPU 调度 |
+| 弹性伸缩 | KV Cache |
+| 服务治理 | 显存拓扑 |
+| API Gateway | 多模型网关 |
+
+### 未来趋势
+
+**向上生长的新层**：
+- AI Gateway - AI 请求路由与负载均衡
+- GPU Scheduler - 异构资源调度
+- Inference Fabric - 推理服务网格
+- Semantic Cache - 语义缓存
+- Agent Runtime - Agent 执行时
+
+> Cloud Native 没有结束，它正在进入下一阶段：**AI Native**
+
 ## 学习目标
 
 - [ ] 能画出现代 IT 系统的整体结构
