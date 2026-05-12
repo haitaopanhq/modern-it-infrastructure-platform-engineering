@@ -32,7 +32,7 @@ jobs:
       release_tag: ${{ steps.release_meta.outputs.tag_name }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set release tag
         id: release_meta
@@ -83,7 +83,7 @@ jobs:
           find dist -type f | sort
 
       - name: Upload all artifacts to GitHub Actions
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: book-artifacts
           path: |
@@ -106,7 +106,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: book-artifacts
           path: downloaded-artifacts
@@ -124,16 +124,18 @@ jobs:
           find pages -name "*.tar.gz" -delete
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: pages
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   release:
     if: github.event_name != 'pull_request'
@@ -146,7 +148,7 @@ jobs:
       actions: read
     steps:
       - name: Download release artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: book-artifacts
           path: release-artifacts
