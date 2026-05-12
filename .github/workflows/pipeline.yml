@@ -123,17 +123,31 @@ jobs:
           rm -rf pages/dist
           find pages -name "*.tar.gz" -delete
 
+      - name: Check Pages availability
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api "repos/${GITHUB_REPOSITORY}/pages" >/dev/null 2>&1; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is enabled; publishing Pages artifact."
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is not enabled or is not accessible to GITHUB_TOKEN; skipping Pages deployment."
+          fi
+
       - name: Setup Pages
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v5
         with:
           path: pages
 
       - name: Deploy to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
         id: deployment
         uses: actions/deploy-pages@v5
 
