@@ -176,6 +176,3 @@ jobs:
           generate_release_notes: true
           files: |
             release-artifacts/dist/*.tar.gz
-            release-artifacts/output/**/*.pdf
-            release-artifacts/output/**/*.docx
-            release-artifacts/output/**/*.html
