@@ -41,6 +41,9 @@ OUTPUT_DIR := output
 DIST_DIR := dist
 PACKAGE_BASENAME := modern-it-infrastructure-platform-engineering
 PACKAGE_TGZ := $(DIST_DIR)/$(PACKAGE_BASENAME).tar.gz
+PDF_PACKAGE_TGZ := $(DIST_DIR)/$(PACKAGE_BASENAME)-pdf.tar.gz
+DOCX_PACKAGE_TGZ := $(DIST_DIR)/$(PACKAGE_BASENAME)-docx.tar.gz
+HTML_PACKAGE_TGZ := $(DIST_DIR)/$(PACKAGE_BASENAME)-html.tar.gz
 
 # Pandoc common opts
 GEOMETRY := -V geometry:margin=1in
@@ -58,7 +61,7 @@ help:
 	@echo "  make pdf         - build PDFs only"
 	@echo "  make docx        - build DOCX only"
 	@echo "  make html        - build HTML only"
-	@echo "  make package     - build all outputs and package output/ as tar.gz"
+	@echo "  make package     - build all outputs and package all/pdf/docx/html archives"
 	@echo "  make check-content - validate generated content pack"
 	@echo "  make clean       - remove generated files"
 	@echo "  make list        - show detected files"
@@ -110,9 +113,7 @@ docx: $(DOCXS)
 html: $(HTMLS)
 
 package: all
-	@mkdir -p "$(DIST_DIR)"
-	tar -czf "$(PACKAGE_TGZ)" -C "$(OUTPUT_DIR)" .
-	@echo "Packaged $(PACKAGE_TGZ)"
+	python3 scripts/package_outputs.py --output-dir "$(OUTPUT_DIR)" --dist-dir "$(DIST_DIR)"
 
 check-content:
 	python3 scripts/check_modern_infra_pack.py
