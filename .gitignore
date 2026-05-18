@@ -16,4 +16,8 @@ Thumbs.db
 node_modules/
 
 # 构建输出
+output/
 dist/
+
+# 本地视频/宣传片工程
+it-infra-evolution-promo/
