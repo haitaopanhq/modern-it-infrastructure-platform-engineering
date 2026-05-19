@@ -1,0 +1,27 @@
+# 一图看懂 计算虚拟化演进
+
+## 核心观点
+
+**计算虚拟化是从"独占硬件"到"共享资源池"的演进历程。**
+
+从最开始的物理机独占，到 Hypervisor 虚拟化、KVM 统一生态、容器轻量化，再到 GPU 虚拟化与 AI 调度。每一代计算虚拟化都在回答同一个问题：如何让计算资源被更灵活地利用。
+
+## 演进路径
+
+| 时代 | 隔离粒度 | 代表技术 |
+|------|---------|----------|
+| 物理机时代 | 整机独占 | 物理服务器、Bare Metal |
+| Hypervisor 时代 | 虚拟机 | VMware ESXi、Xen、KVM |
+| 容器时代 | 进程级 | Docker、containerd |
+| Serverless | 函数级 | AWS Lambda、Knative |
+| GPU 虚拟化 | 算力切片 | MIG、vGPU、GPU Pooling |
+
+## 冲突认知
+
+- 很多人以为容器完全取代了虚拟机
+- 现实：K8s 大量跑在 VM 上，虚拟化只是从计算层下沉到了基础设施层
+
+## 延伸阅读
+
+- [一图看懂 资源抽象史](./resource-abstraction.md)
+- [虚拟化从未消失：从大型机诞生那一天，它就一直在演变](../essays/virtualization-never-died.md)
