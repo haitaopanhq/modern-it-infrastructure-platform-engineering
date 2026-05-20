@@ -16,17 +16,45 @@ const sidebars: SidebarsConfig = {
       label: '第一季：从单机到平台工程',
       collapsed: false,
       items: [
-        'modern-it-systems',
-        'networking-protocols',
-        'database-systems',
-        'storage-systems',
-        'observability',
-        'devops-to-platform-engineering',
-        'platform-engineering-core',
+        {
+          type: 'doc',
+          id: 'modern-it-systems',
+          label: '第 1 章：现代 IT 系统全景',
+        },
         {
           type: 'doc',
           id: 'security-compliance',
-          label: '第 8 章：账户与安全',
+          label: '第 2 章：账户与安全',
+        },
+        {
+          type: 'doc',
+          id: 'networking-protocols',
+          label: '第 3 章：网络与协议',
+        },
+        {
+          type: 'doc',
+          id: 'database-systems',
+          label: '第 4 章：数据库系统',
+        },
+        {
+          type: 'doc',
+          id: 'storage-systems',
+          label: '第 5 章：存储系统',
+        },
+        {
+          type: 'doc',
+          id: 'observability',
+          label: '第 6 章：可观测性与监控',
+        },
+        {
+          type: 'doc',
+          id: 'devops-to-platform-engineering',
+          label: '第 7 章：从手工管理到现代平台工程',
+        },
+        {
+          type: 'doc',
+          id: 'platform-engineering-core',
+          label: '第 8 章：平台工程核心能力',
         },
       ],
     },
