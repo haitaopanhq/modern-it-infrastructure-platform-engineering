@@ -1,0 +1,192 @@
+---
+name: Build and Publish Book
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Release tag. Defaults to modern-it-infra-v<run_number>.'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_TAG_NAME: modern-it-infra-v${{ github.run_number }}
+      INPUT_RELEASE_TAG: ${{ github.event.inputs.release_tag || '' }}
+    outputs:
+      release_tag: ${{ steps.release_meta.outputs.tag_name }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set release tag
+        id: release_meta
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            tag="${GITHUB_REF_NAME}"
+          elif [[ -n "${INPUT_RELEASE_TAG}" ]]; then
+            tag="${INPUT_RELEASE_TAG}"
+          else
+            tag="${DEFAULT_TAG_NAME}"
+          fi
+          echo "tag_name=${tag}" >> "$GITHUB_OUTPUT"
+          echo "Using release tag: ${tag}"
+
+      - name: Set up build environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            make \
+            pandoc \
+            python3-pil \
+            tar \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            texlive-lang-chinese \
+            fonts-noto-cjk \
+            fonts-dejavu
+
+      - name: Validate content pack
+        run: make check-content
+
+      - name: Build all documents
+        run: make package
+
+      - name: List generated files
+        run: |
+          echo "=== Generated PDFs ==="
+          find output -name "*.pdf" | sort | head -50
+          echo ""
+          echo "=== Generated DOCX ==="
+          find output -name "*.docx" | sort | head -50
+          echo ""
+          echo "=== Generated HTML ==="
+          find output -name "*.html" | sort | head -50
+          echo ""
+          echo "=== Release packages ==="
+          find dist -type f | sort
+
+      - name: Upload all artifacts to GitHub Actions
+        uses: actions/upload-artifact@v7
+        with:
+          name: book-artifacts
+          path: |
+            output/**/*.pdf
+            output/**/*.docx
+            output/**/*.html
+            dist/*.pdf
+            dist/*.tar.gz
+          if-no-files-found: error
+
+  deploy-pages:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: book-artifacts
+          path: downloaded-artifacts
+
+      - name: Prepare Pages artifact
+        run: |
+          rm -rf pages
+          mkdir -p pages
+          if [[ -d downloaded-artifacts/output ]]; then
+            cp -R downloaded-artifacts/output/. pages/
+          else
+            cp -R downloaded-artifacts/. pages/
+          fi
+          rm -rf pages/dist
+          find pages -name "*.tar.gz" -delete
+
+      - name: Check Pages availability
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api "repos/${GITHUB_REPOSITORY}/pages" >/dev/null 2>&1; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is enabled; publishing Pages artifact."
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is not enabled or is not accessible to GITHUB_TOKEN; skipping Pages deployment."
+          fi
+
+      - name: Setup Pages
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: pages
+
+      - name: Deploy to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+  release:
+    if: github.event_name != 'pull_request'
+    needs:
+      - build
+      - deploy-pages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Download release artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: book-artifacts
+          path: release-artifacts
+
+      - name: Create release tag
+        env:
+          RELEASE_TAG: ${{ needs.build.outputs.release_tag }}
+        run: |
+          if git ls-remote --exit-code --tags origin "refs/tags/${RELEASE_TAG}" >/dev/null 2>&1; then
+            echo "Release tag ${RELEASE_TAG} already exists."
+          else
+            git tag "${RELEASE_TAG}" "${GITHUB_SHA}"
+            git push origin "refs/tags/${RELEASE_TAG}"
+          fi
+
+      - name: Publish document GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.build.outputs.release_tag }}
+          name: Document Release ${{ needs.build.outputs.release_tag }}
+          draft: false
+          generate_release_notes: true
+          files: |
+            release-artifacts/dist/*.pdf
+            release-artifacts/dist/*.tar.gz
