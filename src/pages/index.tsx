@@ -28,7 +28,7 @@ export default function Home(): JSX.Element {
           <div className={styles.heroText}>
             <p className={styles.kicker}>AI Native Knowledge Base</p>
             <Heading as="h1">《现代 IT 基础设施演进史》</Heading>
-            <p className={styles.subtitle}>七本书：从单机到 AI Native 时代</p>
+            <p className={styles.subtitle}>从单机到 AI Native 时代</p>
             <p className={styles.summary}>
               以 ebook 的阅读节奏，梳理现代 IT 基础设施从单机、网络、云、稳定性、信任、算力一路演进到 AI Native 的系统脉络。
             </p>
