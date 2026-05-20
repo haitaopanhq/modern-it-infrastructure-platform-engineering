@@ -1,5 +1,12 @@
 # 软件开始变成智能体
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![OpenClaw / Hermes 双栈部署](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%B8%80%E5%9B%BE-Openclaw-hermes-%E5%8F%8C%E6%A0%88%E9%83%A8%E7%BD%B2.png)
+
+<!-- yitu-r2-assets:end -->
 > AI Native 卷长文：从 LLM、AIGC、RAG 到 Agent Runtime，解释软件为什么开始从“功能集合”变成“长期运行的数字执行体”。
 
 ## 核心观点

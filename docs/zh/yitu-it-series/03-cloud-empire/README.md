@@ -1,5 +1,14 @@
 # 03. 云上帝国
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![云平台与业务发展](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B8%8E%E4%B8%9A%E5%8A%A1%E5%8F%91%E5%B1%95.png)
+
+![弹性扩容的错觉](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/%E5%BC%B9%E6%80%A7%E6%89%A9%E5%AE%B9%E7%9A%84%E9%94%99%E8%A7%89.png)
+
+<!-- yitu-r2-assets:end -->
 本卷讲云平台如何把计算、存储和网络抽象成资源池，也讲这种抽象如何带来新的依赖、成本和控制权问题。
 
 | 顺序 | 标题 |

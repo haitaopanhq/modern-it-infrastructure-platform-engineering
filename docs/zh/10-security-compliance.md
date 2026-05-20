@@ -1,5 +1,22 @@
 # 第 10 章：安全与合规
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![账户与身份安全演进历史](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E8%B4%A6%E6%88%B7%E4%B8%8E%E8%BA%AB%E4%BB%BD%E5%AE%89%E5%85%A8-%E6%BC%94%E8%BF%9B%E5%8E%86%E5%8F%B2.png)
+
+![Web 攻击改变了整个安全世界](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E4%B8%BA%E4%BB%80%E4%B9%88%20Web%20%E6%94%BB%E5%87%BB%E6%94%B9%E5%8F%98%E4%BA%86%E6%95%B4%E4%B8%AA%E5%AE%89%E5%85%A8%E4%B8%96%E7%95%8C-%E5%B0%81%E9%9D%A2.png)
+
+![Web 安全演进插图](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E4%B8%BA%E4%BB%80%E4%B9%88%20Web%20%E6%94%BB%E5%87%BB%E6%94%B9%E5%8F%98%E4%BA%86%E6%95%B4%E4%B8%AA%E5%AE%89%E5%85%A8%E4%B8%96%E7%95%8C-%E6%8F%92%E5%9B%BE.png)
+
+![Web 安全是如何诞生的](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%BA%AB%E4%BB%BD%E4%B8%8E%E5%AE%89%E5%85%A8/2026-05-20/02%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82-Web%20%E5%AE%89%E5%85%A8%E6%98%AF%E5%A6%82%E4%BD%95%E8%AF%9E%E7%94%9F%E7%9A%84.png)
+
+![Web 攻击为什么越来越危险](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%BA%AB%E4%BB%BD%E4%B8%8E%E5%AE%89%E5%85%A8/2026-05-20/03%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82-Web%20%E6%94%BB%E5%87%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%8D%B1%E9%99%A9.png)
+
+![Web 安全越来越像身份战争](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%BA%AB%E4%BB%BD%E4%B8%8E%E5%AE%89%E5%85%A8/2026-05-20/04%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82-%E4%B8%BA%E4%BB%80-Web-%E5%AE%89%E5%85%A8%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F%E4%B8%80%E5%9C%BA%E8%BA%AB%E4%BB%BD%E6%88%98%E4%BA%89.png)
+
+<!-- yitu-r2-assets:end -->
 ![账户与安全体系图解](../zh/diagrams/10-security.png)
 
 ## 本章概述

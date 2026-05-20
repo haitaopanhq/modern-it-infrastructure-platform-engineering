@@ -1,5 +1,14 @@
 # 第 8 章：OpenClaw 最佳实践
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂 OpenClaw 最佳实践](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82openclaw%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.png)
+
+![OpenClaw / Hermes 双栈部署](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%B8%80%E5%9B%BE-Openclaw-hermes-%E5%8F%8C%E6%A0%88%E9%83%A8%E7%BD%B2.png)
+
+<!-- yitu-r2-assets:end -->
 ![OpenClaw最佳实践图解](../zh/diagrams/08-openclaw.png)
 
 ## 本章概述

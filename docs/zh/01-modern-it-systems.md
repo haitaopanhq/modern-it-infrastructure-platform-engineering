@@ -1,5 +1,16 @@
 # 第 1 章：现代 IT 系统全景
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂 IT 系统](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82IT%E7%B3%BB%E7%BB%9F-01.png)
+
+![现代 IT 系统复杂度](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82%E7%8E%B0%E4%BB%A3IT%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6.png)
+
+![基础设施正在重回核心](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/%20%20%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E6%AD%A3%E5%9C%A8%E9%87%8D%E5%9B%9E%E6%A0%B8%E5%BF%83.png)
+
+<!-- yitu-r2-assets:end -->
 ![现代IT系统全景图](../zh/diagrams/01-it-systems.png)
 
 ## 本章概述

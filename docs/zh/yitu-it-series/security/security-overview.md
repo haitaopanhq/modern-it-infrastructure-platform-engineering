@@ -1,5 +1,20 @@
 # 一图纵览账户与安全体系
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![小红书：账户与安全体系](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E8%B4%A6%E6%88%B7%E4%B8%8E%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB.png)
+
+![账户与身份安全演进历史](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E8%B4%A6%E6%88%B7%E4%B8%8E%E8%BA%AB%E4%BB%BD%E5%AE%89%E5%85%A8-%E6%BC%94%E8%BF%9B%E5%8E%86%E5%8F%B2.png)
+
+![账户安全体系概览](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E8%B4%A6%E6%88%B7%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB%E6%A6%82%E8%A7%88-%E5%B0%81%E9%9D%A2%E5%9B%BE%E7%89%87.png)
+
+![一图解读账户与安全体系](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%A7%A3%E8%AF%BB%E8%B4%A6%E6%88%B7%E4%B8%8E%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB.png)
+
+![账户与安全演进史](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%B8%80%E5%9B%BE%E6%A6%82%E8%A7%88%E8%B4%A6%E6%88%B7%E4%B8%8E%E5%AE%89%E5%85%A8%E6%BC%94%E8%BF%9B%E5%8F%B2.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：网络边界 -> IAM / SSO -> Zero Trust -> Workload Identity -> Secret Lifecycle -> Software Supply Chain -> Agent Identity
 
 ## 核心观点

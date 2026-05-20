@@ -1,5 +1,14 @@
 # 业务部门和基础 IT 部门，到底在关注什么？
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![业务团队 VS IT 技术团队](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%B8%9A%E5%8A%A1%E5%9B%A2%E9%98%9FVS%20IT%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F.png)
+
+![业务与技术之争](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E4%B8%9A%E5%8A%A1%E4%B8%8E%E6%8A%80%E6%9C%AF%E4%B9%8B%E4%BA%89.png)
+
+<!-- yitu-r2-assets:end -->
 > **一个想快，一个怕死**
 
 ## 核心冲突

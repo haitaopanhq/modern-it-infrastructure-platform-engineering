@@ -1,5 +1,12 @@
 # 一图看懂 存储虚拟化演进
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![存储虚拟化演进](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%99%9A%E6%8B%9F%E5%8C%96/%E5%AD%98%E5%82%A8%E8%99%9A%E6%8B%9F%E5%8C%96%E6%BC%94%E8%BF%9B.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：RAID → SAN/NAS → LVM → 分布式存储 → 云原生 → AI Storage
 
 ## 核心观点

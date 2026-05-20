@@ -1,5 +1,14 @@
 # 第 6 章：从手工管理到现代平台工程
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![从手工运维到现代平台工程](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E4%BB%8E%E6%89%8B%E5%B7%A5%E8%BF%90%E7%BB%B4%E5%88%B0%E7%8E%B0%E4%BB%A3%E5%B9%B3%E5%8F%B0%E5%B7%A5%E7%A8%8B.png)
+
+![一图理解平台工程](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E7%90%86%E8%A7%A3%E5%B9%B3%E5%8F%B0%E5%B7%A5%E7%A8%8B.png)
+
+<!-- yitu-r2-assets:end -->
 ![平台工程图解](../zh/diagrams/06-07-platform-engineering.png)
 
 ## 本章概述

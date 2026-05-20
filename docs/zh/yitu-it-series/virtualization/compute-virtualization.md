@@ -1,5 +1,16 @@
 # 一图看懂 计算虚拟化演进
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![计算虚拟化演进](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%99%9A%E6%8B%9F%E5%8C%96/%E8%AE%A1%E7%AE%97%E8%99%9A%E6%8B%9F%E5%8C%96.png)
+
+![虚拟化技术的演变](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%B3%BB%E7%BB%9F%E5%A4%8D%E6%9D%82%E5%BA%A6/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF%E7%9A%84%E6%BC%94%E5%8F%98.png)
+
+![虚拟化从未消失](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%99%9A%E6%8B%9F%E5%8C%96/%E8%99%9A%E6%8B%9F%E5%8C%96%E4%BB%8E%E6%9C%AA%E6%B6%88%E5%A4%B1.png)
+
+<!-- yitu-r2-assets:end -->
 ## 核心观点
 
 **计算虚拟化是从"独占硬件"到"共享资源池"的演进历程。**

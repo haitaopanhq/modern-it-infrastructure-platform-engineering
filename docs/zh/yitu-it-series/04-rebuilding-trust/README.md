@@ -1,5 +1,18 @@
 # 04. 重建信任
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![AD / LDAP / Kerberos 如何工作](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82-AD-LDAP-Kerberos-%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C.png)
+
+![IAM / OAuth / JWT](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%BA%AB%E4%BB%BD%E4%B8%8E%E5%AE%89%E5%85%A8/2026-05-21/02%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82-IAM-OAuth-JWT.png)
+
+![现代系统为什么越来越像身份工厂](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%BA%AB%E4%BB%BD%E4%B8%8E%E5%AE%89%E5%85%A8/2026-05-21/04%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82%EF%BC%9A%E7%8E%B0%E4%BB%A3%E7%B3%BB%E7%BB%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%83%8F%E8%BA%AB%E4%BB%BD%E5%B7%A5%E5%8E%82.png)
+
+![Token 正在变成新的攻击面](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%BA%AB%E4%BB%BD%E4%B8%8E%E5%AE%89%E5%85%A8/2026-05-21/03%E4%B8%80%E5%9B%BE%E7%9C%8B%E6%87%82-%E4%B8%BA%E4%BB%80%E4%B9%88%20Token%20%E6%AD%A3%E5%9C%A8%E5%8F%98%E6%88%90%E6%96%B0%E7%9A%84%E6%94%BB%E5%87%BB%E9%9D%A2.png)
+
+<!-- yitu-r2-assets:end -->
 本卷讲企业身份体系的出现：当系统、用户、服务和网络边界不断扩张，信任必须从“位置可信”迁移到“身份可信”。
 
 | 顺序 | 标题 |

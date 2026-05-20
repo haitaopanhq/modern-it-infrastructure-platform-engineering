@@ -1,5 +1,14 @@
 # 一图读懂监控的前生今世
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂监控系统](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F.png)
+
+![小红书：监控的前生今世](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E7%9B%91%E6%8E%A7%E7%9A%84%E5%89%8D%E7%94%9F%E4%BB%8A%E4%B8%96.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：Monitoring -> Observability -> AIOps -> AI Observability -> AI Native Operations
 
 ## 核心观点

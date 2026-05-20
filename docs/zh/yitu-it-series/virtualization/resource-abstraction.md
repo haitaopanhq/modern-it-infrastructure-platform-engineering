@@ -1,5 +1,12 @@
 # 一图看懂 资源抽象史
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![资源抽象史](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%99%9A%E6%8B%9F%E5%8C%96/%E8%B5%84%E6%BA%90%E6%8A%BD%E8%B1%A1%E5%8F%B2.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：Linux 资源抽象 → VPS/Hypervisor → KVM 统一 → 云原生 → AI Infra
 
 ## 核心观点

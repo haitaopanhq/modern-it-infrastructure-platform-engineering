@@ -2,6 +2,17 @@
 
 #  最近越写越觉得：AI 正在把 IT 世界重新翻出来重做一遍
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![自媒体运营攻略](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%87%AA%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5%E6%94%BB%E7%95%A5.png)
+
+![小红书：IT 基础设施演进之路](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E5%B0%8F%E7%BA%A2%E4%B9%A6-IT%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE%E6%BC%94%E8%BF%9B%E4%B9%8B%E8%B7%AF.png)
+
+![账户与身份安全九宫格](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E8%B4%A6%E6%88%B7%E4%B8%8E%E8%BA%AB%E4%BB%BD%E5%AE%89%E5%85%A8-9%E5%AE%AB%E6%A0%BC.png)
+
+<!-- yitu-r2-assets:end -->
 原创  行者深蓝  行者深蓝  [ 行者深蓝 ](javascript:void\(0\);)
 
 _2026年05月17日 09:21_ __ _ _ _ _ _ 上海  _

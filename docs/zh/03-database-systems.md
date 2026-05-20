@@ -1,5 +1,12 @@
 # 第 3 章：数据库系统
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂数据库](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E6%95%B0%E6%8D%AE%E5%BA%93.png)
+
+<!-- yitu-r2-assets:end -->
 ![数据库系统图解](../zh/diagrams/03-database-systems.png)
 
 ## 本章概述

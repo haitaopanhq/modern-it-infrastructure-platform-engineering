@@ -1,5 +1,14 @@
 # 一图读懂现代网络与协议
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂网络与协议](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%8D%8F%E8%AE%AE.png)
+
+![小红书：网络与协议](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%8D%8F%E8%AE%AE.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：TCP/IP -> DNS / BGP -> HTTP -> Overlay -> CNI / Service Mesh -> eBPF / XDP -> AI Fabric -> AI Gateway / Agent Protocol
 
 ## 核心观点

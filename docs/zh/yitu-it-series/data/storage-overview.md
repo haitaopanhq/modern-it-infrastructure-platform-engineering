@@ -1,5 +1,14 @@
 # 一图读懂存储服务
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂存储系统](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F.png)
+
+![小红书：存储演进之路](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E5%AD%98%E5%82%A8%E6%BC%94%E8%BF%9B%E4%B9%8B%E8%B7%AF.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：RAID -> SAN / NAS -> Block Storage -> Object Storage -> Data Lake -> AI File System -> GPU Data Path
 
 ## 核心观点

@@ -1,5 +1,12 @@
 # 第 5 章：可观测性与监控
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![一图读懂监控系统](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/IT%E7%B3%BB%E7%BB%9F%E6%BC%94%E5%8F%98%E5%8E%86%E5%8F%B2/%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F.png)
+
+<!-- yitu-r2-assets:end -->
 ![可观测性图解](../zh/diagrams/05-observability.png)
 
 ## 本章概述

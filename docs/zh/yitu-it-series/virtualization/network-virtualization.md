@@ -1,5 +1,12 @@
 # 一图看懂 网络虚拟化演进
 
+<!-- yitu-r2-assets:start -->
+
+## 相关文章配图
+
+![网络虚拟化演变](https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E8%99%9A%E6%8B%9F%E5%8C%96/%E7%BD%91%E7%BB%9C%E8%99%9A%E6%8B%9F%E5%8C%96%E6%BC%94%E5%8F%98.png)
+
+<!-- yitu-r2-assets:end -->
 > **演进主线**：VLAN → Overlay Network → SDN → CNI → AI Fabric
 
 ## 核心观点
