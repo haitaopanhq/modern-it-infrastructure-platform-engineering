@@ -23,6 +23,11 @@ const sidebars: SidebarsConfig = {
         'observability',
         'devops-to-platform-engineering',
         'platform-engineering-core',
+        {
+          type: 'doc',
+          id: 'security-compliance',
+          label: '第 8 章：账户与安全',
+        },
       ],
     },
     {
