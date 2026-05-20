@@ -64,7 +64,8 @@
   margin-top: 34px;
 }
 
-.heroPanel {
+.coverFrame {
+  margin: 0;
   border: 1px solid rgba(34, 112, 214, 0.22);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.78);
@@ -72,44 +73,18 @@
   overflow: hidden;
 }
 
-[data-theme='dark'] .heroPanel {
+.coverFrame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+[data-theme='dark'] .coverFrame {
   border-color: rgba(97, 172, 255, 0.24);
   background: rgba(13, 22, 36, 0.82);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.36);
-}
-
-.panelHeader {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 18px 20px;
-  border-bottom: 1px solid rgba(34, 112, 214, 0.18);
-  color: var(--ifm-color-primary-darkest);
-  font-size: 0.86rem;
-  font-weight: 700;
-}
-
-[data-theme='dark'] .panelHeader {
-  color: #d7eaff;
-  border-bottom-color: rgba(97, 172, 255, 0.2);
-}
-
-.panelLines {
-  display: grid;
-  gap: 1px;
-  background: rgba(34, 112, 214, 0.12);
-}
-
-.panelLines span {
-  display: block;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--ifm-color-content);
-  font-weight: 650;
-}
-
-[data-theme='dark'] .panelLines span {
-  background: rgba(10, 19, 32, 0.92);
 }
 
 .themeGrid {
