@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#08111f"/>
+  <path d="M88 128h1024v374H88z" fill="#0f1c2f" stroke="#245b9f" stroke-width="2"/>
+  <text x="132" y="244" fill="#eaf4ff" font-family="Arial, sans-serif" font-size="58" font-weight="700">现代 IT 基础设施演进史</text>
+  <text x="132" y="322" fill="#9dccff" font-family="Arial, sans-serif" font-size="34">第一季：从单机到平台时代</text>
+  <text x="132" y="410" fill="#c4d8ef" font-family="Arial, sans-serif" font-size="28">AI Native 时代的个人技术文明知识库</text>
+  <path d="M132 462h360" stroke="#69aeff" stroke-width="8" stroke-linecap="round"/>
+</svg>
