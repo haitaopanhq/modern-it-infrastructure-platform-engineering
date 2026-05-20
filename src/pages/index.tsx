@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
 const themes = [
-  ['第一季：从单机到平台工程', '从现代 IT 系统全景进入 DevOps、平台工程、IDP 与控制面迁移。'],
+  ['第一季：从单机到平台工程', '对应前七章核心部分：系统全景、网络、数据库、存储、可观测性、DevOps 与平台工程。'],
   ['第二季：单机时代', 'Linux、硬件、NUMA、CPU/GPU/DPU，基础设施从物理边界开始。'],
   ['第三季：网络时代', 'C10K、eBPF、API Gateway、Service Mesh，连接逐渐变成控制系统。'],
   ['第四季：云上帝国', '虚拟化、OpenStack、Kubernetes、云控制面，资源抽象塑造平台。'],

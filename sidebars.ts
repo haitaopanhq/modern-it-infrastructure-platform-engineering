@@ -18,12 +18,12 @@ const sidebars: SidebarsConfig = {
       items: [
         'season-1-platform-engineering/README',
         'modern-it-systems',
+        'networking-protocols',
+        'database-systems',
+        'storage-systems',
+        'observability',
         'devops-to-platform-engineering',
         'platform-engineering-core',
-        'platform/platform-engineering/platform-engineering',
-        'platform/idp/idp-internal-developer-platform',
-        'platform/control-plane-migration/control-plane-migration',
-        'platform-engineering-loop',
       ],
     },
     {
