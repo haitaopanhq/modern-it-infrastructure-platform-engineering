@@ -16,7 +16,7 @@ const themes = [
 
 const future = ['OpenClaw', 'MCP', 'RAG', 'AI Assistant', 'Agent 阅读知识库', '向量检索'];
 const coverImageUrl =
-  'https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%8E%B0%E4%BB%A3IT%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E6%BC%94%E8%BF%9B%E5%8F%B2-%E5%85%A8%E4%B9%A6%E5%B0%81%E9%9D%A2.png';
+  'https://assets.onwalk.net/%E8%87%AA%E5%AA%92%E4%BD%93/%E7%8E%B0%E4%BB%A3IT%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E6%BC%94%E8%BF%9B%E5%8F%B2-%E7%AE%80%E7%BA%A6%E5%B0%81%E9%9D%A2.png';
 
 export default function Home(): JSX.Element {
   return (
@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
             </div>
           </div>
           <figure className={styles.coverFrame}>
-            <img src={coverImageUrl} alt="《现代 IT 基础设施演进史》全书封面" loading="eager" />
+            <img src={coverImageUrl} alt="《现代 IT 基础设施演进史》简约封面" loading="eager" />
           </figure>
         </section>
         <section className={styles.themeGrid}>
