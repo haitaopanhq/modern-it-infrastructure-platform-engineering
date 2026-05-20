@@ -24,7 +24,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'doc',
           id: 'security-compliance',
-          label: '第 2 章：账户与安全',
+          label: '第 2 章：安全与合规',
         },
         {
           type: 'doc',

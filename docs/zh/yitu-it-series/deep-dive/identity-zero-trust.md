@@ -58,4 +58,4 @@ Cosign、Trivy、SBOM、SLSA、Kyverno。镜像要扫描、制品要签名、来
 ## 延伸阅读
 
 - [一图读懂 IT 安全体系](../security/security-overview.md)
-- 书籍第 10 章：[安全与合规](../../10-security-compliance.md)
+- 书籍第 2 章：[安全与合规](../../10-security-compliance.md)
