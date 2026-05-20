@@ -16,7 +16,6 @@ const sidebars: SidebarsConfig = {
       label: '第一季：从单机到平台工程',
       collapsed: false,
       items: [
-        'season-1-platform-engineering/README',
         'modern-it-systems',
         'networking-protocols',
         'database-systems',
